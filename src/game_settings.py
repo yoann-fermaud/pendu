@@ -8,6 +8,9 @@ WIDTH, HEIGHT = 1280, 720
 SCREEN = pygame.display.set_mode((WIDTH, HEIGHT))
 
 
+# -------------------------------|COMMON FUNCTION|------------------------------- #
+
+
 def get_font(size):
     return pygame.font.Font("assets/font/font.ttf", size)
 
